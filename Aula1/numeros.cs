@@ -40,11 +40,32 @@ void LiberaramOFloat()
     double ValorTotal = quantia * preco;
     Console.WriteLine($"{ValorTotal}");
 }
-void UmaLoucuraAqui()                               
+void DivisaoUsandoDouble()                               
 {
     double teste = double.MaxValue;
+    double teste2 = double.MinValue;
     Console.WriteLine(teste);
+    Console.WriteLine(teste2);
     double tres = 1.0 / 3.0 ;
     Console.WriteLine(tres);
 }
-UmaLoucuraAqui();
+void DivisaoComM()
+{
+    decimal num1 = 1.0m;
+    decimal num2 = 3.0m;
+    Console.WriteLine(num1 / num2);
+
+    double num3 = 1.0;
+    double num4 = 3.0;
+    Console.WriteLine(num3 / num4) ;
+}
+
+
+void Desafio()
+{
+    double ValorPi = Math.PI;
+    double RaioDoCirculo = 2.50;
+
+    Console.WriteLine($"A aréa do circulo em CENTIMETROS é = {ValorPi * (RaioDoCirculo * RaioDoCirculo)}");
+}
+Desafio();
